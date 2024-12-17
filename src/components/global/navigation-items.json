@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_global_navigation_items",
+  "info": {
+    "displayName": "Navigation Items"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "internalUrl": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::internal-link.internal-link"
+    },
+    "externalUrl": {
+      "type": "string"
+    }
+  }
+}

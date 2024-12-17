@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "internal_links",
+  "info": {
+    "singularName": "internal-link",
+    "pluralName": "internal-links",
+    "displayName": "InternalLink",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,5 +1,33 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface GlobalNavigation extends Struct.ComponentSchema {
+  collectionName: 'components_global_navigations';
+  info: {
+    description: '';
+    displayName: 'Navigation';
+    icon: 'bulletList';
+  };
+  attributes: {
+    Links: Schema.Attribute.Component<'global.navigation-items', true>;
+    name: Schema.Attribute.String;
+  };
+}
+
+export interface GlobalNavigationItems extends Struct.ComponentSchema {
+  collectionName: 'components_global_navigation_items';
+  info: {
+    displayName: 'Navigation Items';
+  };
+  attributes: {
+    externalUrl: Schema.Attribute.String;
+    internalUrl: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::internal-link.internal-link'
+    >;
+    label: Schema.Attribute.String;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -65,6 +93,8 @@ export interface SharedSlider extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'global.navigation': GlobalNavigation;
+      'global.navigation-items': GlobalNavigationItems;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
