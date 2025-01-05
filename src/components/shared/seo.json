@@ -20,7 +20,21 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "metaKeywords": {
+      "type": "string"
+    },
+    "canonicalUrl": {
+      "type": "string"
+    },
+    "noIndex": {
+      "type": "boolean"
+    },
+    "noFollow": {
+      "type": "boolean"
     }
   }
 }

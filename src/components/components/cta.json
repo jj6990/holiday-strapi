@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_components_ctas",
+  "info": {
+    "displayName": "Cta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "internalLink": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::internal-link.internal-link"
+    },
+    "externalUrl": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "button",
+        "link"
+      ]
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "button",
+        "link"
+      ]
+    },
+    "variations": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "outline"
+      ]
+    }
+  }
+}

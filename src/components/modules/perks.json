@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_modules_perks",
+  "info": {
+    "displayName": "perks"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "enumeration",
+      "enum": [
+        "air-conditioner",
+        "badroom-essentials",
+        "beach-essentials",
+        "beach-view",
+        "bed-linens",
+        "cleaning-products",
+        "coffee-maker",
+        "dishes",
+        "dryer-machine",
+        "gas-stove",
+        "hot-water",
+        "kitchen-essentials",
+        "microwave",
+        "mountain-view",
+        "oven",
+        "parking",
+        "pets",
+        "pool",
+        "refrigerator",
+        "sea-front",
+        "shower-products",
+        "tv",
+        "washer-machine",
+        "wifi",
+        "wine-glasses"
+      ]
+    }
+  }
+}

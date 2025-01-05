@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_modules_main_heroes",
+  "info": {
+    "displayName": "Main Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "heroCTA": {
+      "displayName": "Cta",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.cta"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

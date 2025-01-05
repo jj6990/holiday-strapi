@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_geolocations",
+  "info": {
+    "displayName": "geolocation"
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "decimal"
+    },
+    "long": {
+      "type": "decimal"
+    }
+  }
+}

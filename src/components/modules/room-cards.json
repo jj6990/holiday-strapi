@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_modules_room_cards",
+  "info": {
+    "displayName": "roomCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bedIcons": {
+      "displayName": "bedIcons",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.bed-icons"
+    }
+  }
+}

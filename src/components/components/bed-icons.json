@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_bed_icons",
+  "info": {
+    "displayName": "bedIcons"
+  },
+  "options": {},
+  "attributes": {
+    "icons": {
+      "type": "enumeration",
+      "enum": [
+        "bulk-bed",
+        "single-bed",
+        "double-bed"
+      ]
+    }
+  }
+}
